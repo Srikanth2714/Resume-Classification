@@ -9,3 +9,4 @@ scikit-learn
 pickle-mixin
 pydantic
 tqdm
+en-core-web-sm==3.8.0
