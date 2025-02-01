@@ -6,6 +6,9 @@ import pdfplumber
 import pandas as pd
 import streamlit as st
 
+from spacy.cli import download
+# Install the model
+download("en_core_web_sm")
 import en_core_web_sm
 nlp = en_core_web_sm.load()
 from nltk.corpus import stopwords
