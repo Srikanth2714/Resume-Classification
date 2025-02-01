@@ -7,4 +7,3 @@ spacy
 nltk
 scikit-learn
 pickle-mixin
-en-core-web-sm
