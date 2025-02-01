@@ -5,20 +5,14 @@ import docx2txt
 import pdfplumber
 import pandas as pd
 import streamlit as st
-
+import spacy
+nlp = spacy.load("en_core_web_sm")
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
 
 import spacy
 from spacy.cli import download
-
-# Check if the model is installed, and if not, download it
-try:
-    nlp = spacy.load("en_core_web_sm")
-except:
-    download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
 
 
 #----------------------------------------------------------------------------------------------------
