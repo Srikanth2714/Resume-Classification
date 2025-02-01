@@ -1,5 +1,6 @@
 # IMPORT LIBRARIES
 import re
+import os
 import PyPDF2
 import docx2txt
 import pdfplumber
