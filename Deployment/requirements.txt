@@ -9,4 +9,3 @@ scikit-learn
 pickle-mixin
 pydantic
 tqdm
-python -m spacy download en_core_web_sm
